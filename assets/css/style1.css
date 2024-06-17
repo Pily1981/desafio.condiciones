@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/assets/img/fondo.webp);
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+main img {
+    width: 500px;
+    height: 300px;
+}
+
+.boton{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton button{
+    background: none;
+    border: none;
+}
+
+.boton i{
+    font-size: 20px;
+    color: black;
+}
+
+.boton p{
+    margin-top: 10px;
+}

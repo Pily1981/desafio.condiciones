@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/assets/img/fondo.webp);
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 25px;    
+}
+
+main a{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    color: black;
+}
+
+.pagina {
+    color: blue;
+}
+
+footer h5{
+    padding-top: 250px;
+    text-align: center;
+}
+
+
+
+
